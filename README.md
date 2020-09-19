@@ -10,3 +10,10 @@ The scripts to run the performance model is included in DRAM_run. We implement a
 In particular, generate_L2_access.py is used to analyze memory trace and generate miss information.
 interval_warp_E_DRAM_sensitivity.py is the main MDM model script including interval analysis and MSHR/NOC/DRAM model.
 
+Most important, you need to configure the parameter (#warps/SM, #SMs, NOC/DRAM bandwidth, core_frequency, latency, etc.)in generate_L2_access.py and interval_warp_E_DRAM_sensitivity.py to run your own hardware platforms. L1_cache and L2_cache are also needed to configure.
+
+You can also use your own cache-simulator to run the memory trace.
+
+The codes may still need more optimization for cleaning and efficiency. 
+
+Welcome to join this project!
