@@ -17,3 +17,4 @@ You can also use your own cache-simulator to run the memory trace.
 The codes may still need more optimization for cleaning and efficiency. 
 
 Welcome to join this project!
+Also welcome to further extend the MDM model!
